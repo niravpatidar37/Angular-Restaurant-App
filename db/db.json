@@ -1,0 +1,24 @@
+{
+  "restaurants": [
+    {
+      "name": "dominoz",
+      "address": "ahmedabad",
+      "id": 1
+    },
+    {
+      "name": "honest",
+      "address": "maninagar",
+      "id": 2
+    },
+    {
+      "name": "pizzeria",
+      "address": "paldi",
+      "id": 3
+    },
+    {
+      "name": "hjik",
+      "address": "asdsada",
+      "id": 4
+    }
+  ]
+}
