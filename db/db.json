@@ -15,5 +15,19 @@
       "address": "xyz",
       "id": 4
     }
+  ],
+  "users": [
+    {
+      "name": "Nirav",
+      "password": "abcd123",
+      "email": "niravpatidar37@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Nirav",
+      "password": "abcd123",
+      "email": "niravpatidar37@gmail.com",
+      "id": 2
+    }
   ]
 }

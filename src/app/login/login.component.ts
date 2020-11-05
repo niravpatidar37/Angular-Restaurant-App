@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input} from '@angular/core';
+import { RestoService } from '../resto.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  alert:boolean = false;
+  email:string;
+  password:string;
+ 
+  constructor(private resto:RestoService, private router:Router) { }
 
-  ngOnInit() {
-  }
-
+  ngOnInit(): void {
+    
+    }
+    logIn(){
+    if(this.email == this.email && this.password == this.password){
+      this.router.navigate(['']);
+    }
+    else{
+      alert("Please Enter Valid Details");
+    }
+    }
 }
