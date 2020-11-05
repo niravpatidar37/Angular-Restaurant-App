@@ -28,6 +28,30 @@
       "password": "abcd123",
       "email": "niravpatidar37@gmail.com",
       "id": 2
+    },
+    {
+      "name": "jay",
+      "password": "jay123",
+      "email": "jay@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "jay",
+      "password": "jay123",
+      "email": "jay@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "niravpatidar7@gmail.com",
+      "password": "abcd123",
+      "email": "nirav@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "abcd",
+      "password": "qwerty",
+      "email": "abcd@gmail.com",
+      "id": 6
     }
   ]
 }

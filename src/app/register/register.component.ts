@@ -25,5 +25,11 @@ export class RegisterComponent implements OnInit {
     this.resto.createUser(this.createUser.value).subscribe((result)=>{
       console.log(result,"data created sucessfull")
     })
+    this.alert=true
+    this.createUser.reset({})
+  }
+  closeAlert()
+  {
+    this.alert=false
   }
 }
